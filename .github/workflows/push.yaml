@@ -26,8 +26,8 @@ jobs:
       - name: build and push docker image to ecr
         env:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          REPOSITORY: "bksys"
-          IMAGE_TAG: bksys-${{ env.CURRENT_DATETIME }}
+          REPOSITORY: "microyzy"
+          IMAGE_TAG: yzy-${{ env.CURRENT_DATETIME }}
         run: |
           docker build . --tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
           docker tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }} ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
