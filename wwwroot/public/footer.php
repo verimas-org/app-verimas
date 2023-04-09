@@ -12,7 +12,7 @@
             <div class="row display-flex">
                 <div class="col-md-6 col-sm-6 col-xs-12" style="    width: 100%;">
                     <p class="copyright">
-                    <h5 style="color:black ;text-align:center">Copyright © 2022 - <?php echo date('Y'); ?> SG-Asgard All Rights Reserved. </h5>
+                    <h5 style="color:black ;text-align:center">Copyright © 2022 - <?php echo date('Y'); ?> Petorch All Rights Reserved. </h5>
                     </p>
                 </div><!-- /col -->
             </div>
