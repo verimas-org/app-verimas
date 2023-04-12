@@ -41,5 +41,6 @@ jobs:
 
       - name: reflect image to EKS
         run: |
-          kubectl rollout restart deploy ${{ secrets.AWS_EKS_CLUSTER_NAME }}
+          aws eks update-kubeconfig --name ${{ secrets.AWS_EKS_CLUSTER_NAME }}
+          kubectl rollout restart deploy demo-yzy2
 
