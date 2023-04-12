@@ -15,6 +15,19 @@ jobs:
         run: echo "CURRENT_DATETIME=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
         
       - uses: actions/checkout@v3
+      
+      - uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-region: "ap-northeast-1"
+          role-to-assume: ${{ secrets.AWS_EKS_ROLE_ARN }}
+
+      - name: reflect image to EKS
+        run: |
+          aws sts get-caller-identity
+          aws eks update-kubeconfig --name ${{ secrets.AWS_EKS_CLUSTER_NAME }}
+          cat ~/.kube/config
+          kubectl rollout restart deploy demo-yzy2
+      
       - uses: aws-actions/configure-aws-credentials@v2
         with:
           aws-region: "ap-northeast-1"
@@ -34,14 +47,4 @@ jobs:
           docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
           docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
           
-      - uses: aws-actions/configure-aws-credentials@v2
-        with:
-          aws-region: "ap-northeast-1"
-          role-to-assume: ${{ secrets.AWS_EKS_ROLE_ARN }}
-
-      - name: reflect image to EKS
-        run: |
-          aws sts get-caller-identity
-          aws eks update-kubeconfig --name ${{ secrets.AWS_EKS_CLUSTER_NAME }}
-          kubectl rollout restart deploy demo-yzy2
 
