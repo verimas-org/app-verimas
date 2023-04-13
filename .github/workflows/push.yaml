@@ -34,7 +34,8 @@ jobs:
           # docker tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }} ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
           # docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
           # docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
-          ls ./
+          chmod +x ./bin/cleanup_images.sh
+          ./bin/cleanup_images.sh
 
       - uses: aws-actions/configure-aws-credentials@v2
         with:
