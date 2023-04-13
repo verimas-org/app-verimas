@@ -30,12 +30,12 @@ jobs:
           REPOSITORY: "microyzy"
           IMAGE_TAG: yzy-${{ env.CURRENT_DATETIME }}
         run: |
-          # docker build . --tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
-          # docker tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }} ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
-          # docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
-          # docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
+          docker build . --tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
+          docker tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }} ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
+          docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
+          docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
           chmod +x ./bin/cleanup_images.sh
-          ./bin/cleanup_images.sh
+          ./bin/cleanup_images.sh ${{ env.REPOSITORY }} "yzy-"
 
       - uses: aws-actions/configure-aws-credentials@v2
         with:
@@ -44,5 +44,5 @@ jobs:
 
       - name: reflect image to EKS
         run: |
-          # aws eks update-kubeconfig --name ${{ secrets.AWS_EKS_CLUSTER_NAME }}
-          # kubectl rollout restart deploy demo-yzy2
+          aws eks update-kubeconfig --name ${{ secrets.AWS_EKS_CLUSTER_NAME }}
+          kubectl rollout restart deploy demo-yzy2
