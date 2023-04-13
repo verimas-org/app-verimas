@@ -9,8 +9,8 @@ fi
 REPONAME=$1
 TAGPREFIX=$2
 LEN_TAGPREFIX=${#TAGPREFIX}
-
 CURRENT_MONTH="$(date +'%Y%m')"
+echo "Cleaning up images..."
 echo "Current date: ${CURRENT_MONTH}"
 
 for imagetag in $(aws ecr list-images --repository-name ${REPONAME} --query "imageIds[].[imageTag]" --output text);
@@ -24,3 +24,5 @@ do
                 echo "    skip ${imagetag}"
         fi
 done
+
+echo "Clean-up done."
