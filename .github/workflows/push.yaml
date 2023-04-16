@@ -37,7 +37,8 @@ jobs:
           # docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
           # chmod +x ./bin/cleanup_images.sh
           # ./bin/cleanup_images.sh ${{ env.REPOSITORY }} "yzy-"
-          curl -v https://jenkins.petorch.live/job/argocd/job/update-image-tag/buildWithParameters?token=113f0521347826dcd63762044fbdd5532f&deployfile=deployfile&repo=${{ env.REPOSITORY }}&tag=${{ env.IMAGE_TAG }}
+          curl -v https://yang:113f0521347826dcd63762044fbdd5532@jenkins.petorch.live/job/argocd/job/update-image-tag/buildWithParameters
+          # ?token=f&deployfile=deployfile&repo=${{ env.REPOSITORY }}&tag=${{ env.IMAGE_TAG }}
 
       # - uses: aws-actions/configure-aws-credentials@v2
           #   with:
