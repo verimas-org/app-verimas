@@ -29,6 +29,7 @@ jobs:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           REPOSITORY: "microyzy"
           IMAGE_TAG: yzy-${{ env.CURRENT_DATETIME }}
+          K8S_DEPLOY: "k8s/web-microyzy/deploy.yaml"
         run: |
           docker build . --tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
           # docker tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }} ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest
@@ -37,9 +38,9 @@ jobs:
           chmod +x ./bin/cleanup_images.sh
           ./bin/cleanup_images.sh ${{ env.REPOSITORY }} "yzy-"
           # call jenkins job to release this image
-          curl "https://yang:${{ secrets.JENKINS_YANG_TOKEN }}@jenkins.petorch.live/job/argocd/job/update-image-tag/buildWithParameters?token=${{ secrets.JENKINS_YANG_TOKEN }}&deployfile=k8s/web-microyzy/deploy.yaml&repo=${{ env.REPOSITORY }}&tag=${{ env.IMAGE_TAG }}"
+          curl "https://${{ secrets.JENKINS_USER }}:${{ secrets.JENKINS_TOKEN }}@jenkins.petorch.live/job/argocd/job/update-image-tag/buildWithParameters?token=${{ secrets.JENKINS_TOKEN }}&deployfile=${{ env.K8S_DEPLOY }}&repo=${{ env.REPOSITORY }}&tag=${{ env.IMAGE_TAG }}"
 
-      # NOT pushing update to k8s anymore, using pulling by argocd instead
+      # NOT pushing image to k8s anymore, using pulling by argocd instead
       # - uses: aws-actions/configure-aws-credentials@v2
           #   with:
           #     aws-region: "ap-northeast-1"
