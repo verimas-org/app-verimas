@@ -3,7 +3,7 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="" name="author">
-    <title>Petorch - フルスタック技術者・アプリ開発/クラウドインフラエンジニア</title>
+    <title>Petorch - フルスタック・アプリ開発/クラウドインフラエンジニア</title>
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-3.3.4.css">
