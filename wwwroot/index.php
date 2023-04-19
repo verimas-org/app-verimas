@@ -25,7 +25,7 @@
               <div class="tm-brand-box">
                 <div class="tm-double-border-1">
                   <div class="tm-double-border-2">
-                    <h1 class="tm-brand text-uppercase">Dream Pulse</h1>
+                    <h1 class="tm-brand">PeTorch</h1>
                   </div>
                 </div>
               </div>
@@ -89,7 +89,7 @@
                 <p class="mb-0">Contact me:
                   <a rel="nofollow" href="mailto:petorchlive@gmail.com" class="tm-footer-link">petorchlive@gmail.com</a>
                 </p>
-                <p class="mb--0 mb-2" style="color:#687693;font-size:12px">powered by Kubernetes, Docker engine. Node: <?php echo  getenv('HOSTNAME'); ?></p>
+                <p class="mb--0 mb-2" style="color:#687693;font-size:12px">powered by Kubernetes. Node: <?php echo  getenv('HOSTNAME'); ?></p>
               </footer>
             </div>
           </nav>
@@ -102,7 +102,7 @@
               <div class="tm-section-wrap">
                 <section id="intro" class="tm-section">
                     <div class="tm-bg-white-transparent tm-intro">
-                        <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Introducing Dream Pulse</h2>
+                        <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Introducing</h2>
                         <p class="tm-color-gray">
                           This box alpha 30 percent. Left sidebar is a sticky element.
                           Right side Contents are scrolling up and down. This background has a
