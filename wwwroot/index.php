@@ -1,200 +1,365 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<?php include("./public/head.php"); ?>
-<body>
+    <title>PeTorch - アプリ開発・クラウドインフラ・フルスタック</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="slick/slick.css"/>    
+    <link rel="stylesheet" href="slick/slick-theme.css"/>    
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
+  </head>
+  <body>
+    <main class="container-fluid">
+      <div class="row">        
+          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-sidebar-sticky">
+              <div class="tm-brand-box">
+                <div class="tm-double-border-1">
+                  <div class="tm-double-border-2">
+                    <h1 class="tm-brand text-uppercase">Dream Pulse</h1>
+                  </div>
+                </div>
+              </div>
 
+              <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav">
+                <li class="nav-item">
+                  <a href="#intro" class="nav-link active">
+                    <span class="d-inline-block mr-3">Intro</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link">
+                    <span class="d-inline-block mr-3">About</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#work" class="nav-link">
+                    <span class="d-inline-block mr-3">Work</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#clients" class="nav-link">
+                    <span class="d-inline-block mr-3">Clients</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#talk" class="nav-link">
+                    <span class="d-inline-block mr-3">Let's Talk</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="nav flex-row tm-social-links">
+                <li class="nav-item">
+                  <a href="https://facebook.com" class="nav-link tm-social-link">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://twitter.com" class="nav-link tm-social-link">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://dribbble.com" class="nav-link tm-social-link">
+                    <i class="fab fa-dribbble"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://linkedin.com" class="nav-link tm-social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+              <footer class="text-center text-white small">
+                <p class="mb--0 mb-2">Copyright © 2022 - <?php echo date('Y'); ?> PeTorch All Rights Reserved.</p>
+                <p class="mb-0">Contact me:
+                  <a rel="nofollow" href="mailto:petorchlive@gmail.com" class="tm-footer-link">petorchlive@gmail.com</a>
+                </p>
+                <p class="mb--0 mb-2" style="color:#687693;font-size:12px">powered by Kubernetes, Docker engine. Node: <?php echo  getenv('HOSTNAME'); ?></p>
+              </footer>
+            </div>
+          </nav>
+          
+          <main role="main" class="ml-sm-auto col-12">
+            <div
+              class="parallax-window"
+              data-parallax="scroll"
+              data-image-src="img/dream-pulse-header.jpg">
+              <div class="tm-section-wrap">
+                <section id="intro" class="tm-section">
+                    <div class="tm-bg-white-transparent tm-intro">
+                        <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Introducing Dream Pulse</h2>
+                        <p class="tm-color-gray">
+                          This box alpha 30 percent. Left sidebar is a sticky element.
+                          Right side Contents are scrolling up and down. This background has a
+                          parallax effect.
+                        </p>
+                        <p class="mb-0 tm-color-gray">
+                          Dream Pulse is a Bootstrap 4.3.1 template designed for your websites. You can modify this layout as you like.
+                        </p>
+                    </div>              
+                </section>
+            </div>            
+          </div>
 
-<!-- start page-wrapper -->
-<div class="page-wrapper">
-
-
-    <!-- start preloader -->
-    <div class="preloader">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
+          <div class="tm-section-wrap bg-white">
+            <section id="about" class="row tm-section">
+              <div class="col-xl-6">
+                <div class="tm-section-half">    
+                    <div><i class="fas fa-6x fa-balance-scale mb-5 tm-section-icon"></i></div>                        
+                    <h2 class="tm-section-title tm-color-primary mb-5">About Us</h2>
+                    <p class="mb-5">
+                      When first section is scrolled up, BG image will be
+                      disappeared with a parallax effect. Donec ac tempor tellus, a
+                      eleifend ligula. Fusce vitae sem sed purus euismod
+                      condimentum.
+                    </p>
+                    <p>
+                      Sed at orci non metus tristique suscipit vitae in nibh. Sed
+                      rutrum odio ac est hendrerit, at vestibulum felis condimentum.
+                    </p>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tm-section-half">
+                    <div><i class="far fa-6x fa-building mb-5 tm-section-icon"></i></div>
+                    <h2 class="tm-section-title tm-color-primary mb-5">Company Profile</h2>
+                    <p class="mb-5">
+                      You can use this template for your commercial websites or for your clients. 
+                      You are NOT allowed to re-post this template as a downloadable ZIP file 
+                      on your template collection sites. It is illegal.
+                    </p>
+                    <p>
+                      Suspendisse fermentum orci eget lorem euismod suscipit. Morbi
+                      condimentum odio metus, at finibus dolor sollicitudin quis.
+                      Curabitur eu congue erat.
+                    </p>
+                </div>
+              </div>
+            </section>
+          </div>
+            
+          <div class="tm-section-wrap bg-white">
+            <section id="work" class="row tm-section">
+              <div class="col-12">
+                <div class="w-100 tm-double-border-1 tm-border-gray">
+                    <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                      <div class="tm-gallery-wrap">
+                          <h2 class="tm-color-primary tm-section-title mb-4 ml-2">Our Work</h2>
+                          <div class="tm-gallery">
+                            <div class="tm-gallery-item">                        
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/01.jpg" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Fresh <span>Bubba</span></h2>
+                                  <p>Bubba likes to appear out of thin air.</p>
+                                  <a href="img/gallery/large/01.jpg">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/02.jpg" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Fresh <span>Bubba</span></h2>
+                                  <p>Bubba likes to appear out of thin air.</p>
+                                  <a href="img/gallery/large/02.jpg">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/03.jpg" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Fresh <span>Bubba</span></h2>
+                                  <p>Bubba likes to appear out of thin air.</p>
+                                  <a href="img/gallery/large/03.jpg">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/04.jpg" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Fresh <span>Bubba</span></h2>
+                                  <p>Bubba likes to appear out of thin air.</p>
+                                  <a href="img/gallery/large/04.jpg">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/05.jpg" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Fresh <span>Bubba</span></h2>
+                                  <p>Bubba likes to appear out of thin air.</p>
+                                  <a href="img/gallery/large/05.jpg">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/06.jpg" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Fresh <span>Bubba</span></h2>
+                                  <p>Bubba likes to appear out of thin air.</p>
+                                  <a href="img/gallery/large/06.jpg">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/07.jpg" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Fresh <span>Bubba</span></h2>
+                                  <p>Bubba likes to appear out of thin air.</p>
+                                  <a href="img/gallery/large/07.jpg">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/08.jpg" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Fresh <span>Bubba</span></h2>
+                                  <p>Bubba likes to appear out of thin air.</p>
+                                  <a href="img/gallery/large/08.jpg">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                          </div>
+                      </div>                        
+                    </div>                  
+                  </div>     
+              </div>         
+            </section>
+          </div>
+            
+          <div class="tm-section-wrap bg-white">
+            <section id="clients" class="row tm-section">
+              <div class="col-12 tm-section-pad">
+                  <div class="tm-flex-item-left">
+                      <div class="tm-w-80">
+                          <h2 class="tm-color-primary tm-section-title mb-4">Our Clients</h2>
+                          <p class="mb-5">
+                            Aenean est augue, iaculis ut arcu a, cursus tempus eros.
+                            Maecenas ut efficitur lectus, vel commodo nibh. Vivamus
+                            consequat massa non euismod facilisis. Morbi assumsan non libero
+                            a vehicula. Donec blandit suscipit magna sit amet elementum.
+                          </p>
+                      </div>
+                      
+                      <div class="row tm-clients-images">
+                        <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                          <a href="https://google.com">
+                            <img src="img/client-1.png" alt="Client Image" class="img-fluid tm-client-img" />
+                          </a>                          
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                          <a href="https://facebook.com">
+                            <img src="img/client-2.png" alt="Client Image" class="img-fluid tm-client-img" />
+                          </a>                          
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                          <a href="https://twitter.com">
+                            <img src="img/client-3.png" alt="Client Image" class="img-fluid tm-client-img" />
+                          </a>                          
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                          <a href="https://instagram.com">
+                            <img src="img/client-4.png" alt="Client Image" class="img-fluid tm-client-img" />
+                          </a>                          
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                            <a href="https://google.com">
+                              <img src="img/client-5.png" alt="Client Image" class="img-fluid tm-client-img" />
+                            </a>                          
+                          </div>
+                          <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                            <a href="https://facebook.com">
+                              <img src="img/client-6.png" alt="Client Image" class="img-fluid tm-client-img" />
+                            </a>                          
+                          </div>
+                          <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                            <a href="https://twitter.com">
+                              <img src="img/client-7.png" alt="Client Image" class="img-fluid tm-client-img" />
+                            </a>                          
+                          </div>
+                          <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                            <a href="https://instagram.com">
+                              <img src="img/client-8.png" alt="Client Image" class="img-fluid tm-client-img" />
+                            </a>                          
+                          </div>
+                      </div>
+                  </div> 
+              </div>                             
+            </section>
+          </div>
+            
+          <div class="tm-section-wrap bg-white">
+            <section id="talk" class="row tm-section">
+                <div class="col-xl-6 mb-5">
+                  <div class="tm-double-border-1 tm-border-gray">
+                    <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                        <h2 class="tm-color-primary tm-section-title mb-4">Talk to Us</h2>
+                        <p class="mb-4">
+                          Sed aliquet, nibh ac hendrerit faucibus, tellus metus viverra
+                          tellus, vel volutpat purus orci ac ex.
+                        </p>
+                        <p class="mb-3">
+                          120-240 Orci varius natoque penatibus, <br>
+                          parturient montes, 10660 <br>
+                          nasvetur ridiculus mus
+                        </p>
+                    </div>                    
+                  </div>                  
+                </div>
+                <div class="col-xl-6 mb-5">
+                  <div class="tm-contact-form-wrap">
+                    <form action="" method="POST" class="tm-contact-form">
+                        <div class="form-group">
+                          <input type="text" id="contact_name" name="contact_name" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Name" required="" />
+                        </div>
+                        <div class="form-group">
+                          <input type="email" id="contact_email" name="contact_email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Email" required="" />
+                        </div>
+                
+                        <div class="form-group">
+                          <textarea rows="4" id="contact_message" name="contact_message" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Message..." required=""></textarea>
+                        </div>
+                
+                        <div class="form-group mb-0">
+                          <button type="submit" class="btn rounded-0 d-block ml-auto tm-btn-primary">
+                            SEND
+                          </button>
+                        </div>
+                      </form>
+                  </div>                    
+                </div>
+              </section>
+          </div>
+        </main>        
+      </div>
     </div>
-    <!-- end preloader -->
-
-    <!-- Start header -->
-
-    <?php include("./public/header.php"); ?>
-
-    <!-- end of header -->
-
-    <!-- start of hero -->
-    <section class="arkit-hero-slider hero-slider hero-style-1">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide text-color-dark">
-                    <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-1.png">
-                        <div class="container">
-                            <div class="slide-title" data-swiper-parallax="400" style="float: right;">
-                                <span style="font-size:42px;">人間力</span>
-                                <h2 style="font-size:30px;">長く働きながら日本のビジネスを身に付けた経験豊富な精鋭メンバーの結集により、あなたの企業のために最高のエンジニアと協力します。</h2>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="slide-btns" data-swiper-parallax="500" style="float: right;">
-                                <a class="theme-btn" href="engineering.php">ITエンジニアリング事業</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end slide-inner -->
-                </div>
-                <!-- end swiper-slide -->
-
-                <div class="swiper-slide text-color-dark">
-                    <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-2.png">
-                        <div class="container">
-                            <div class="slide-title" data-swiper-parallax="400">
-                                <span style="font-size:42px">技術力</span>
-                                <h2 style="font-size:30px">ブレーカーシスは技術立社を標榜し、技術力のさらなる強化に向けたさまざまな取り組みを実施しています。</h2>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="slide-btns" data-swiper-parallax="500">
-                                <a class="theme-btn" href="center.php">ブレーカー技術基盤</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end slide-inner -->
-                </div>
-                <!-- end swiper-slide -->
-                
-                
-                <div class="swiper-slide text-color-dark">
-                    <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-1.png">
-                        <div class="container">
-                            <div class="slide-title" data-swiper-parallax="400" style="float: right;">
-                                <span style="font-size:42px;">人の集め力</span>
-                                <h2 style="font-size:30px;">「チームワークが大切だ」。ブレーカーシスにてあなたのモチベーションアップしましょうか。</h2>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="slide-btns" data-swiper-parallax="500" style="float: right;">
-                                <a class="theme-btn" href="recruit.php">JOIN US</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end slide-inner -->
-                </div>
-                <!-- end swiper-slide -->
-                
-                
-            </div>
-            <!-- end swiper-wrapper -->
-
-            <!-- swipper controls -->
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </section>
-    <!-- end of hero slider -->
-
-
-    <!-- start service -->
-    <section class="arkit-service-info section-padding">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-xl-12">
-                    <div class="arkit-service-info-single" data-number="01">
-                        <span class="tag">エキスパートエンジニア</span>
-                        <h2 style="font-size:30px;height: 150px;">専門家のエンジニアがいる。</h2>
-                        <p  style="height:80px">ビジネス理解力の高いスペシャリストによる総合的なITエンジニアリングを行います。</p>
-                    </div>
-                </div>
-                <!--/col-->
-                <div class="col-lg-4 col-md-6 col-xl-12">
-                    <div class="arkit-service-info-single" data-number="02">
-                        <span class="tag">フルスタックエンジニア</span>
-                        <h2 style="font-size:30px;height: 150px;">複数専門分野の知識・スキルをもつフルスタックエンジニアが育ている。</h2>
-                        <p  style="height:80px">様々なの業務システム開発、 AWS・GCP・Azureなどのクラウドサービスを活用したインフラ基盤・運用システム開発、 Webサービス開発など多岐にわたるエンジニアリングを行っています。</p>
-                    </div>
-                </div>
-                <!--/col-->
-                <div class="col-lg-4 col-md-6 col-xl-12">
-                    <div class="arkit-service-info-single" data-number="03">
-                        <span class="tag">先進技術活用</span>
-                        <h2 style="font-size:30px;height: 150px;">クラウドネイティブ開発技術世界を目指す。</h2>
-                        <p style="height:80px">システムインフラ・アプリケーションの構築、開発及びアップデートを迅速に行い、品質改善とリスク低減も同時に実現するアプローチです。</p>
-                    </div>
-                </div>
-                <!--/col-->
-            </div>
-        </div>
-    </section>
-    <!-- end of service -->
-
-
-    <!-- stsrt client -->
-    <section class="client">
-        <div class="owl-carousel owl-theme clents-slider">
-            <div class="item">
-                <div class="single-client">
-                    <a data-toggle="tooltip"  data-placement="right" href="case_website_renewal.php" title="ブレーカーシスホームページがリニューアルしました。" data-container="body">
-                        <img alt="" id="tooltips" class="img-responsive" src="assets/images/revolve_renewal.png">
-                    </a>
-                </div>
-            </div><!--/item-->
-            <div class="item">
-                <div class="single-client">
-                    <img alt="" id="tooltips" class="img-responsive" src="assets/images/client/img2.png">
-                </div>
-            </div><!--/item-->
-
-            <div class="item">
-                <div class="single-client">
-                    <img alt="" class="img-responsive" src="assets/images/client/img3.png">
-                </div>
-            </div><!--/item-->
-            <div class="item">
-                <div class="single-client">
-                    <img alt="" class="img-responsive" src="assets/images/client/img4.png">
-                </div>
-            </div><!--/item-->
-            <div class="item">
-                <div class="single-client">
-                    <img alt="" class="img-responsive" src="assets/images/client/img1.png">
-                </div>
-            </div><!--/item-->
-            <div class="item">
-                <div class="single-client">
-                    <img alt="" class="img-responsive" src="assets/images/client/img2.png">
-                </div>
-            </div><!--/item-->
-            <div class="item">
-                <div class="single-client">
-                    <img alt="" class="img-responsive" src="assets/images/client/img3.png">
-                </div>
-            </div><!--/item-->
-            <div class="item">
-                <div class="single-client">
-                    <img alt="" class="img-responsive" src="assets/images/client/img4.png">
-                </div>
-            </div><!--/item-->
-        </div>
-    </section>
-    <!-- end of client -->
-
-    <?php include("./public/footer.php"); ?>
-
-
-</div>
-
-
-<!-- All JavaScript files
-================================================== -->
-<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-
-
-<!-- Plugins for this template -->
-<script src="assets/js/jquery-plugin-collection.js"></script>
-
-<!-- Custom script for this template -->
-<script src="assets/js/script.js"></script>
-</body>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/templatemo-scripts.js"></script>
+  </body>
 </html>
