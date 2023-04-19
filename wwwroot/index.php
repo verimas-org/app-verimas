@@ -13,8 +13,12 @@
     <link rel="stylesheet" href="slick/slick-theme.css"/>    
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
+    <link rel="stylesheet" href="css/video.css" />
   </head>
   <body>
+  <video id="v1" autoplay loop muted>
+      <source src="img/backg.mp4" type="video/mp4"  />
+  </video>
     <main class="container-fluid">
       <div class="row">        
           <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
