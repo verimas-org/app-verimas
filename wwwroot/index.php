@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<?php include("./public/head.php"); ?>
 <?php include("./public/access-counter.php"); ?>
+<?php include("./public/head.php"); ?>
   <body>
     <?php include("./public/scripts.php"); ?>
     <video id="v1" autoplay loop muted>
