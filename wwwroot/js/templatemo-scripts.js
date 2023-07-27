@@ -2,19 +2,24 @@ $(document).ready(function() {
   // Single Page Nav for highlighting nav items
   $("#tmMainNav").singlePageNav();
 
-  // Carousel in Our Work section
+  // showroom section
   $(".tm-gallery").slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 2000,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
+
     dots: true,
-    infinite: false,
-    arrows: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 2,
+    infinite: true,
+    arrows: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1600,
         settings: {
-          arrows: false,
+          arrows: true,
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
@@ -24,17 +29,21 @@ $(document).ready(function() {
       {
         breakpoint: 1200,
         settings: {
-          arrows: false,
-          slidesToShow: 2,
-          slidesToScroll: 1
+          arrows: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
         }
       },
       {
-        breakpoint: 991,
+        breakpoint: 997,
         settings: {
           arrows: false,
-          slidesToShow: 3,
-          slidesToScroll: 1
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
         }
       },
       {
@@ -42,7 +51,9 @@ $(document).ready(function() {
         settings: {
           arrows: false,
           slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
         }
       },
       {
@@ -50,7 +61,9 @@ $(document).ready(function() {
         settings: {
           arrows: false,
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
         }
       }
       // You can unslick at a given breakpoint now by adding:
@@ -59,12 +72,14 @@ $(document).ready(function() {
     ]
   });
 
+   /*
   // Image Pop Up
   $(".tm-gallery").magnificPopup({
     delegate: "a", // child items selector, by clicking on it popup will open
     type: "image",
     gallery: { enabled: true }
   });
+  */
 
   $(".navbar-toggler").on("click", function(e) {
     $(".tm-sidebar").toggleClass("show");
