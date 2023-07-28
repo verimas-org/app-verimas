@@ -1,7 +1,7 @@
               <div class="tm-section-wrap">
                 <section id="welcome" class="tm-section">
                     <div class="tm-intro">
-                    <h2 class="tm-section-title mb-5 text-uppercase tm-color-white">ようこそ</h2>
+                    <h2 class="tm-section-title mb-5 text-uppercase tm-color-white">ようこそ、ヴェリマスへ</h2>
                         <div class="indeximage">
                             <ul>
                                 <li class="indeximglistitem"><img src="img/indeximg01.jpg" title="株式会社ヴェリマス"></li>
