@@ -133,9 +133,9 @@ a {
   bottom: 0;
   left: 0;
   z-index: 100;
-  padding-left: 70px;
-  padding-right: 70px;
-  width: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 300px;
   max-width: 400px;
 }
 

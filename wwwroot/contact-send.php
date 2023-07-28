@@ -17,14 +17,14 @@ try {
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = "info@bk-sys.co.jp";
-	$mail->Password = "oztaiabqpzrpusaa";
+	$mail->Username = "admin@verimas.co.jp";
+	$mail->Password = "ytwiawqiluruqhap";
 	$mail->SMTPSecure = 'ssl';
 	$mail->Port = 465;
 
 	$mail->setFrom("admin@verimas.co.jp", '株式会社ヴェリマス');
 	
-	$mail->addAddress('microyzy@gmail.com');
+	$mail->addAddress('admin@verimas.co.jp');
 	
 	if (empty($_POST['contact_email'])) {
     	$mail->addReplyTo("admin@verimas.co.jp", '株式会社ヴェリマス');
