@@ -4,6 +4,9 @@
 <?php include("./public/access-counter.php"); ?>
   <body>
     <?php include("./public/scripts.php"); ?>
+    <video id="v1" autoplay loop muted>
+      <source src="img/backg.mp4" type="video/mp4"  />
+    </video>
 
     <main class="container-fluid">
       <div class="row">        

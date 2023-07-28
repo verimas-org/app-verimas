@@ -1,12 +1,5 @@
               <footer class="text-center text-white small">
-                <p class="mb--0 mb-2">Copyright © 2023 - <?php echo date('Y'); ?> Verimas</p>
-                <p class="mb-0">maintenance:
-                  <a rel="nofollow" href="mailto:admin@verimas.co.jp" class="tm-footer-link">admin@verimas.co.jp</a>
-                </p>
-
-                <p class="odometer" title="<?php echo $pageaccess_counter; ?>">
-                  <?php echo $pageaccess_counter; ?>
-              </p>
+                <p class="mb--0 mb-2" style="white-space:nowrap;">Copyright © 2023 - <?php echo date('Y'); ?> Verimas</p>
 
 
                 <ul class="nav flex-row tm-social-links">
@@ -31,6 +24,13 @@
                   </a>
                 </li>
               </ul>
+
+              <p class="odometer" title="<?php echo $pageaccess_counter; ?>">
+                  <?php echo $pageaccess_counter; ?>
+                </p>
+                <p class="mb-0"><small>maintenance:
+                  <a rel="nofollow" href="mailto:admin@verimas.co.jp" class="tm-footer-link">admin@verimas.co.jp</a></small>
+                </p>
 
               <p class="mb--0 mb-2" style="color:#687693;font-size:12px">powered by Kubernetes.<br> container: <?php echo  getenv('HOSTNAME'); ?></p>
               </footer>
