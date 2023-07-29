@@ -86,6 +86,20 @@
 
             <article class="entry">
               <div class="entry-img">
+                <img src="img/k8s-cloud-github.png" alt="" class="img-fluid hover-trans-img-big">
+              </div>
+              <h2 class="entry-title">
+                <a href="#">Github CI活用</a>
+              </h2>
+              <div class="entry-content">
+                <p>
+                ・コード解析、ビルド自動化<br>
+                </p>
+              </div>
+            </article>
+
+            <article class="entry">
+              <div class="entry-img">
                 <img src="img/k8s-cloud-jenkins.png" alt="" class="img-fluid hover-trans-img-big">
               </div>
               <h2 class="entry-title">
