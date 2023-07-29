@@ -18,7 +18,7 @@ try {
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
 	$mail->Username = "admin@verimas.co.jp";
-	$mail->Password = "ytwiawqiluruqhap";
+	$mail->Password = getenv('SENDMAIL_PWD');
 	$mail->SMTPSecure = 'ssl';
 	$mail->Port = 465;
 

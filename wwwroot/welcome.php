@@ -4,13 +4,15 @@
                     <h2 class="tm-section-title mb-5 text-uppercase tm-color-white">ようこそ、ヴェリマスへ</h2>
                         <div class="indeximage">
                             <ul>
-                                <li class="indeximglistitem"><img src="img/indeximg01.jpg" title="株式会社ヴェリマス"></li>
-                                <li class="indeximglistitem"><img src="img/indeximg02.jpg" title="株式会社ヴェリマス"></li>
-                                <li class="indeximglistitem"><img src="img/indeximg03.jpg" title="株式会社ヴェリマス"></li>
-                                <li class="indeximglistitem"><img src="img/indeximg04.jpg" title="株式会社ヴェリマス"></li>
+                                <li class="indeximglistitem"><img src="img/dx.jpg" class="indeximg-img-01" title="Verimas.DX"></li>
+                                <li class="indeximglistitem"><img src="img/indeximg01.jpg" class="indeximg-img-02" title="株式会社ヴェリマス"></li>
+                                <li class="indeximglistitem"><img src="img/indeximg02.jpg" class="indeximg-img-02" title="株式会社ヴェリマス"></li>
+                                <li class="indeximglistitem"><img src="img/indeximg03.jpg" class="indeximg-img-02" title="株式会社ヴェリマス"></li>
+                                <li class="indeximglistitem"><img src="img/indeximg04.jpg" class="indeximg-img-02" title="株式会社ヴェリマス"></li>
                             </ul>
                             <span class="indeximgleft">&nbsp;&lt;&nbsp;</span>
                             <span class="indeximgright">&nbsp;&gt;&nbsp;</span>
+                            <a class="indeximglislink"></a>
                             <a class="indeximglislink"></a>
                             <a class="indeximglislink"></a>
                             <a class="indeximglislink"></a>
@@ -20,7 +22,7 @@
                 </section>
             </div>
 <script>
-        let image_number=4;
+        let image_number=5;
         let num = 0;
         let timer;
 

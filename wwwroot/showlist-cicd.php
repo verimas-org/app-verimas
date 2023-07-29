@@ -12,7 +12,7 @@
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
         <h2>Verimasウェブサイト</h2>
-        コード変更をプッシュするだけで済む！
+        リリースはコード変更をプッシュするだけで済む！
       </div>
     </section><!-- End Breadcrumbs -->
 
@@ -75,7 +75,7 @@
                 <img src="img/k8s-cloud-infra.png" alt="" width="100%" class="img-fluid hover-trans-img-big">
               </div>
               <h2 class="entry-title">
-                <a href="#">全体概要構成図</a>
+                <a href="#">全体構成概要</a>
               </h2>
               <div class="entry-content">
                 <p>
@@ -93,7 +93,9 @@
               </h2>
               <div class="entry-content">
                 <p>
-                サンプル：<a href="https://jenkins.petorch.live/job/argocd/job/update-image-tag/" target="_blank">jenkins.petorch.live</a>
+                ・テスト自動化<br>
+                <a href="https://jenkins.petorch.live/job/argocd/job/update-image-tag/" target="_blank">Jenkinsサンプル</a><br>
+                ・Kubernetes管理ジョブ化<br>
                 </p>
               </div>
             </article>
@@ -103,11 +105,14 @@
                 <img src="img/k8s-cloud-argocd.png" alt="" class="img-fluid hover-trans-img-big">
               </div>
               <h2 class="entry-title">
-                <a href="#">可視化ArgoCD活用</a>
+                <a href="#">ArgoCD活用</a>
               </h2>
               <div class="entry-content">
                 <p>
-                サンプル：<a href="https://argocd.petorch.live/" target="_blank">argocd.petorch.live/</a>
+                ・コンテナ配置自動化<br>
+                サンプル：<a href="https://argocd.petorch.live/" target="_blank">argocd.petorch.live/</a><br>
+                Kubernetes配置ファイルの差分自動検知より、コンテナデプロイを自動化。<br>
+                ・コンテナシステムの可視化<br>
                 </p>
               </div>
             </article>
