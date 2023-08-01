@@ -2,7 +2,7 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi d-flex align-items-center">ショールーム（運用事例）</i>
+        <i class="bi d-flex align-items-center">ショールーム</i>
         <i class="bi d-flex align-items-center ms-4"></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
@@ -24,6 +24,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
+          <li><a href="showlist-dx.php" title="VerimasのDX化取り組み">DX化＠Verimas</a></li>
           <li><a href="showlist-cicd.php" title="自動化CI/DIを利用したk8sコンテナシステム">Verimasウェブ</a></li>
           <li><a href="showlist-serverless.php" title="サーバーレスアーキテクチャ">PeTorchインフラ</a></li>
           <li><a href="showlist-petai.php" title="画像認識AI、MLモデルのトレーニング">ペット写真認識AI</a></li>

@@ -23,6 +23,20 @@
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
+                                <img src="img/showlist-dx.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                  <p style="text-align: left;">DX化取り組み＠Verimas<br>
+                                  <small>
+                                  ➡自身のDX化を推進する<br>
+                                  ➡DX技術人材を育成する<br>
+                                  </small>
+                                  </p>
+                                  <a href="showlist-dx.php" target="_self">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
                                 <img src="img/serverless.jpg" alt="" class="img-fluid">
                                 <figcaption>
                                   <p style="text-align: left;">PeTorchインフラ<br>

@@ -1,7 +1,7 @@
               <div class="tm-section-wrap">
                 <section id="welcome" class="tm-section">
                     <div class="tm-intro">
-                    <h2 class="tm-section-title mb-5 text-uppercase tm-color-white">ようこそ、ヴェリマスへ</h2>
+                    <h2 class="tm-section-title mb-5 text-uppercase tm-color-white">ヴェリマスへようこそ！</h2>
                         <div class="indeximage">
                             <ul>
                                 <li class="indeximglistitem"><img src="img/dx.jpg" class="indeximg-img-01" title="Verimas.DX"></li>
