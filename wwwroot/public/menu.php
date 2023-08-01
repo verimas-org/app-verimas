@@ -12,10 +12,10 @@
                 </div>
               </div>
 
-              <ul id="tmMainNav" class="nav flex-column text-uppercase text-left tm-main-nav">
+              <ul id="tmMainNav" class="nav flex-column text-left tm-main-nav">
                 <li class="nav-item">
                   <a href="#welcome" class="nav-link active">
-                    <span class="d-inline-block mr-3">Welcome</span>
+                    <span class="d-inline-block mr-3">WELCOME</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
@@ -46,6 +46,12 @@
                 <li class="nav-item">
                   <a href="#contact" class="nav-link">
                     <span class="d-inline-block mr-3">問い合わせ</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link" onclick="window.location.href='https://wiki.verimas.co.jp';">
+                    <span class="d-inline-block mr-3">Wiki#Verimas</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>

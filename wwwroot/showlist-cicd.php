@@ -151,6 +151,9 @@
                   <li><a href="#">Argo CD</a></li>
                   <li><a href="#">Amazon EKS</a></li>
                   <li><a href="#">Amazon ECR</a></li>
+                  <li><a href="#">API Gateway</a></li>
+                  <li><a href="#">AWS Lambda</a></li>
+                  <li><a href="#">Amazon DynamoDB</a></li>
                 </ul>
               </div><!-- End sidebar tags-->
 

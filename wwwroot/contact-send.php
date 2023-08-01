@@ -10,6 +10,12 @@ include("PHPMailer-master/src/SMTP.php");
 
 date_default_timezone_set('Asia/Tokyo');
 
+if (empty($_POST['contact_name']) || empty($_POST['contact_email']) || empty($_POST['contact_message']) || empty($_POST['contact_type'])) {
+    header( "HTTP/1.1 404 Not Found" ) ;
+    http_response_code( 404 ) ;
+    exit;
+}
+
 try {
 	$mail = new PHPMailer(true);
 	$mail->CharSet = "UTF-8";

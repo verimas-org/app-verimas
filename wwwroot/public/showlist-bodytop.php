@@ -9,7 +9,7 @@
         <a href="https://twitter.com" class="twitter" target="_sns"><i class="bi bi-twitter"></i></a>
         <a href="https://facebook.com" class="facebook" target="_sns"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/" class="instagram" target="_sns"><i class="bi bi-instagram"></i></a>
-        <a href="https://linkedin.com" class="linkedin" target="_sns"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://linkedin.com" class="linkedin" target="_sns"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
   </section>
