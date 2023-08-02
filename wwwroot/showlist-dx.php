@@ -73,9 +73,9 @@
             </article>
 
             <article class="entry">
-              <!-- <div class="entry-img">
-                <img src="img/dx-verimas.png" alt="" width="200%" class="img-fluid hover-trans-img-big">
-              </div>-->
+              <div class="entry-img">
+                <img src="img/dx-network-verimas.png" alt="" width="200%" class="img-fluid hover-trans-img-big">
+              </div>
               <h2 class="entry-title">
                 <a href="#">ヴェリマスのDX化取り組み</a>
               </h2>
@@ -83,9 +83,10 @@
                 <p>
                 ・常にDX化5W1Hで業務プロセスを検視し、業務効率化及び生産性向上を求めます。<br>
                 ・業務データ全般をデジタル化した上で、データを段々蓄積し、データ分析・活用を展開します。<br>
-                ・社内コミュニケーションツールをデジタル化します。<br>
+                ・社内・社外コミュニケーションツールをデジタル化します。<br>
                 ・<a href="https://wiki.verimas.co.jp" target="_blank">Wikiシステム</a>をベースに、社内業務・開発業務を全般システム化し、可視化します。<br>
-                ・業務システム全般をクラウド化、システムメンテナンスを自動化します。<br>
+                ・ITシステム全般をクラウド化、システムメンテナンスを自動化します。<br>
+                ・ITシステム全般は社内でも社外（顧客）でもアクセスできることで、業務効率化向上を求めます。<br>
                 ・社内も顧客向けでも、ITシステム及び製品開発において、アジャイル開発手法を導入し、積極的運用します。<br>
                 ・常に先端IT技術をキャッチアップし、試作や製品開発を行いながら、DX人材の育成やビジネスモデルの変革を求めます。<br>
                 </p>
