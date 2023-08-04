@@ -10,11 +10,12 @@ include("PHPMailer-master/src/SMTP.php");
 
 date_default_timezone_set('Asia/Tokyo');
 
-if (empty($_POST['contact_name']) || empty($_POST['contact_email']) || empty($_POST['contact_message']) || empty($_POST['contact_type'])) {
+/*if (empty($_POST['contact_name']) || empty($_POST['contact_email']) || empty($_POST['contact_message']) || empty($_POST['contact_type'])) {
     header( "HTTP/1.1 404 Not Found" ) ;
     http_response_code( 404 ) ;
     exit;
 }
+*/
 
 try {
 	$mail = new PHPMailer(true);
@@ -55,5 +56,17 @@ catch (Exception $e)
 {
 	echo 'Error while sending Email: ', $mail->ErrorInfo;
 }
+?>
 
-
+<?php
+if ($_POST['contact_type'] == "Wiki問い合わせ") {
+?>
+<script>
+alert('送信しました。\n' + 'このたび当社にお問い合わせいただきまして、ありがとうございます。');
+setTimeout(function() {
+    window.close();
+},100);
+</script>
+<?php
+}
+?>
