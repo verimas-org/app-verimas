@@ -13,19 +13,21 @@
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">本社所在地</td>
-                    <td style=""><a href="#access"><!--<img src="img/address.png" width="300" height="35" title="本社所在地">-->TO BE(設立計画中)</a></td>
+                    <td style=""><a href="#access"><img src="img/address.png" title="本社所在地"></a></td>
                     </tr>
+                    <!--
                     <tr>
                     <td style="background-color: #f6f6f6;">TEL</td>
                     <td style="">03-1111-1111</td>
                     </tr>
+                    -->
                     <tr>
                     <td style="background-color: #f6f6f6;">設立日</td>
-                    <td style="">2023年9月予定</td>
+                    <td style="">2023年8月（設立中）</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">決算月</td>
-                    <td style="">8月</td>
+                    <td style="">7月</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">資本金</td>
@@ -33,7 +35,7 @@
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">代表取締役</td>
-                    <td style=""><img src="img/holdername.png" width="120" height="35" title=""></td>
+                    <td style=""><img src="img/holdername.png" title=""></td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">事業内容</td>
@@ -51,7 +53,7 @@
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">顧問税理士</td>
-                    <td style="">税理士法人-</td>
+                    <td style="">-</td>
                     </tr>
                     </tbody>
                     </table>
