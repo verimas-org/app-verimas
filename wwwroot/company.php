@@ -23,15 +23,15 @@
                     -->
                     <tr>
                     <td style="background-color: #f6f6f6;">設立日</td>
-                    <td style="">2023年8月（設立中）</td>
+                    <td style="">2023年9月（設立計画中）</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">決算月</td>
-                    <td style="">7月</td>
+                    <td style="">8月</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">資本金</td>
-                    <td style="">-</td>
+                    <td style="">３００,０００円</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">代表取締役</td>
@@ -45,6 +45,7 @@
                     2.ソフトウェア受託開発事業<br>
                     3.SES・エンジニア派遣事業<br>
                     4.先端IT技術コンサルティング事業（IoT・AI等）<br>
+                    前各号に附帯関連する一切の事業。
                     </td>
                     </tr>
                     <tr>
