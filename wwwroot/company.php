@@ -100,7 +100,7 @@
                     SFドラマ・映画シリーズの<a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B2%E3%82%A4%E3%83%88" target="_fromverimas">『スターゲイト』</a>からの架空の言葉より、社名を「verimas」としました。<br>
                     「verimas」は英語でTruth、真理という意味です。
                     <hr />
-                    「verimas」は『スターゲイト』に宇宙四大種族の一つであるエンシェント族（Ancient）の言葉です。<br>
+                    「verimas」は『スターゲイト』に宇宙四大種族の一つであるエンシェント族（Ancient）の言葉です（ラテン語よりの変形）。<br>
                     エンシェント族は最上達な種族として、究極の科学技術より宇宙の真理（正体）を求める無限の道に進めつつあり、「一切は真理の為だ」のことを感動しました。
                     <br><img src="img/stargate.jpg" width="200" title="StarGate" class="hover-trans-img">
                     <img src="img/ancient.jpg" width="200" title="Ancient" class="hover-trans-img">
