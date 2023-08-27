@@ -19,6 +19,7 @@
             <?php include("showroom.php"); ?>
             <?php include("access.php"); ?>
             <?php include("contact.php"); ?>
+            <?php include("platform.php"); ?>
         </main>
     </main>
     </div>
