@@ -23,7 +23,7 @@
                     -->
                     <tr>
                     <td style="background-color: #f6f6f6;">設立日</td>
-                    <td style="">2023年9月</td>
+                    <td style="">2023年9月1日</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">決算月</td>
