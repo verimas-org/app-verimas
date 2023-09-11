@@ -22,16 +22,12 @@
                     </tr>
                     -->
                     <tr>
-                    <td style="background-color: #f6f6f6;">設立日</td>
-                    <td style="">2023年9月1日</td>
+                    <td style="background-color: #f6f6f6;">設立</td>
+                    <td style="">2023年9月</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">決算月</td>
                     <td style="">8月</td>
-                    </tr>
-                    <tr>
-                    <td style="background-color: #f6f6f6;">資本金</td>
-                    <td style="">３００,０００円</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">代表取締役</td>
