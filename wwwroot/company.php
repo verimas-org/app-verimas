@@ -46,11 +46,11 @@
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">取引金融機関</td>
-                    <td style="">-</td>
+                    <td style="">準備中</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">顧問税理士</td>
-                    <td style="">-</td>
+                    <td style="">準備中</td>
                     </tr>
                     </tbody>
                     </table>
