@@ -50,8 +50,8 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link" onclick="window.location.href='https://wiki.verimas.co.jp';">
-                    <span class="d-inline-block mr-3">Wiki#Verimas</span>
+                  <a href="#" class="nav-link" onclick="window.location.href='https://wiki.verimas.co.jp';" title="Verimasデジタルプラットフォーム">
+                    <span class="d-inline-block mr-3">Vプラットフォーム</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>

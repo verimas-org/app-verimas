@@ -8,8 +8,11 @@
                     <tbody>
                     <tr>
                     <td style="width: 30%; background-color: #f6f6f6;">商号</td>
-                    <td style="width: 70%;">株式会社ヴェリマス<br>
-                    英語表記：verimas corporation</td>
+                    <td style="width: 70%;">株式会社ヴェリマス</td>
+                    </tr>
+                    <tr>
+                    <td style="background-color: #f6f6f6;">英語表記</td>
+                    <td style="">Verimas Corporation</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">本社所在地</td>
@@ -49,7 +52,7 @@
                     </td>
                     </tr>
                     <tr>
-                    <td style="background-color: #f6f6f6;">取引金融機関</td>
+                    <td style="background-color: #f6f6f6;white-space: nowrap;">取引金融機関</td>
                     <td style="">準備中</td>
                     </tr>
                     <tr>
