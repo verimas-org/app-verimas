@@ -4,7 +4,7 @@
                 <div class="tm-section-half">
                     <div><i class="fas fa-6x fa-building mb-5 tm-section-icon"></i></div>
                     <h2 class="tm-section-title tm-color-primary mb-5">会社概要</h2>
-                    <table style="border-collapse: collapse; width: 100%;" border="1">
+                    <table style="border-collapse: collapse; width: 100%; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;" border="1">
                     <tbody>
                     <tr>
                     <td style="width: 30%; background-color: #f6f6f6;">商号</td>
