@@ -15,12 +15,10 @@
                     <td style="background-color: #f6f6f6;">本社所在地</td>
                     <td style=""><a href="#access"><img src="img/address.png" title="本社所在地"></a></td>
                     </tr>
-                    <!--
                     <tr>
-                    <td style="background-color: #f6f6f6;">TEL</td>
-                    <td style="">03-1111-1111</td>
+                    <td style="background-color: #f6f6f6;">代表番号</td>
+                    <td style="">050-8890-8858</td>
                     </tr>
-                    -->
                     <tr>
                     <td style="background-color: #f6f6f6;">設立</td>
                     <td style="">2023年9月</td>
