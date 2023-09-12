@@ -13,7 +13,13 @@
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">本社所在地</td>
+                    <td style="">
+                    〒103-0022<br>
+                    東京都中央区日本橋室町1丁目11番12号 日本橋水野ビル7階
+                    </td>
+                    <!--
                     <td style=""><a href="#access"><img src="img/address.png" title="本社所在地"></a></td>
+                    -->
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">代表番号</td>
