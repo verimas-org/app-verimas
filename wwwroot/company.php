@@ -59,6 +59,11 @@
                     <td style="background-color: #f6f6f6;">顧問税理士</td>
                     <td style="">準備中</td>
                     </tr>
+                    <tr>
+                    <td style="background-color: #f6f6f6;">主要取引先</td>
+                    <td style="">株式会社ネクアス<br>
+                    </td>
+                    </tr>
                     </tbody>
                     </table>
                 </div>
