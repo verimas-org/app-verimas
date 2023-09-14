@@ -4,7 +4,7 @@
                 <div class="tm-section-half">
                     <div><i class="fas fa-6x fa-building mb-5 tm-section-icon"></i></div>
                     <h2 class="tm-section-title tm-color-primary mb-5">会社概要</h2>
-                    <table style="border-collapse: collapse; width: 100%; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;" border="1">
+                    <table style="" border="1">
                     <tbody>
                     <tr>
                     <td style="width: 30%; background-color: #f6f6f6;">商号</td>
@@ -16,7 +16,7 @@
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">本社所在地</td>
-                    <td style="">
+                    <td style="border-collapse: collapse; width: 100%; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
                     〒103-0022<br>
                     東京都中央区日本橋室町1丁目11番12号 日本橋水野ビル7階
                     </td>
