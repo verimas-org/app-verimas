@@ -11,7 +11,7 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
-        <h2>AIスマートロック（自社開発中）</h2>
+        <h2>AIスマートロック</h2>
         次世代スマートホームの実現を！
       </div>
     </section><!-- End Breadcrumbs -->

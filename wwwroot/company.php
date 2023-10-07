@@ -15,6 +15,10 @@
                     <td style="">Verimas Corporation</td>
                     </tr>
                     <tr>
+                    <td style="background-color: #f6f6f6;">法人番号</td>
+                    <td style="">3010001238206</td>
+                    </tr>
+                    <tr>
                     <td style="background-color: #f6f6f6;">本社所在地</td>
                     <td style="border-collapse: collapse; width: 100%; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
                     〒103-0022<br>
@@ -30,7 +34,7 @@
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">設立</td>
-                    <td style="">2023年9月</td>
+                    <td style="">2023年</td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;">決算月</td>
@@ -47,23 +51,27 @@
                     1.クラウドエンジニアリング事業<br>
                     2.ソフトウェア受託開発事業<br>
                     3.SES・エンジニア派遣事業<br>
-                    4.先端IT技術コンサルティング事業（IoT・AI等）<br>
+                    4.先端IT技術コンサルティング事業（スマート家電・IoT・AI等）<br>
                     前各号に附帯関連する一切の事業。
                     </td>
                     </tr>
                     <tr>
                     <td style="background-color: #f6f6f6;white-space: nowrap;">取引金融機関</td>
-                    <td style="">準備中</td>
+                    <td style="">みずほ銀行日本橋支店</td>
                     </tr>
+                    <!--
                     <tr>
                     <td style="background-color: #f6f6f6;">顧問税理士</td>
-                    <td style="">準備中</td>
+                    <td style=""></td>
                     </tr>
+                    -->
+                    <!--
                     <tr>
                     <td style="background-color: #f6f6f6;">主要取引先</td>
                     <td style="">株式会社ネクアス<br>
                     </td>
                     </tr>
+                    -->
                     </tbody>
                     </table>
                 </div>
