@@ -108,7 +108,7 @@
               <div class="entry-content">
                 <p>
                 ・テスト自動化<br>
-                <a href="https://jenkins.petorch.live/job/argocd/job/update-image-tag/" target="_blank">Jenkinsサンプル</a><br>
+                <a href="https://jenkins.stg.petorch.live/job/application/job/simple-webapp-test-release/" target="_blank">Jenkins - STG環境</a><br>
                 ・Kubernetes管理ジョブ化<br>
                 </p>
               </div>
@@ -124,7 +124,7 @@
               <div class="entry-content">
                 <p>
                 ・コンテナ配置自動化<br>
-                サンプル：<a href="https://argocd.petorch.live/" target="_blank">argocd.petorch.live/</a><br>
+                ArgoCD - STG環境：<a href="https://argocd.stg.petorch.live/" target="_blank">argocd.stg.petorch.live/</a><br>
                 Kubernetes配置ファイルの差分自動検知より、コンテナデプロイを自動化。<br>
                 ・コンテナシステムの可視化<br>
                 </p>
