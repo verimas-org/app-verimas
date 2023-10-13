@@ -25,11 +25,11 @@ jobs:
       #   id: login-ecr
 
       - name: Login to Docker registry
-          uses: docker/login-action@v2
-          with:
-            registry: docker.stg.petorch.live
-            username: ${{ secrets.DOCKER_USER }}
-            password: ${{ secrets.DOCKER_PWD }}
+        uses: docker/login-action@v2
+        with:
+          registry: docker.stg.petorch.live
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_PWD }}
 
       - name: build and push docker image
         env:
