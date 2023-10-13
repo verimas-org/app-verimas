@@ -1,4 +1,4 @@
-name: push image and release
+name: push image and release to stg
 
 on:
   push:
