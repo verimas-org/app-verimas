@@ -41,7 +41,7 @@ jobs:
           docker build . --tag ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
           docker push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ env.IMAGE_TAG }}
           # chmod +x ./bin/cleanup_images.sh
-          # ./bin/cleanup_images.sh ${{ env.REPOSITORY }} "yzy-"
+          # ./bin/cleanup_images.sh ${{ env.REPOSITORY }} "rev-"
           # call jenkins job to release this image
           curl "https://${{ secrets.JENKINS_USER }}:${{ secrets.JENKINS_TOKEN }}@jenkins.stg.petorch.live/job/application/job/simple-webapp-test-release/buildWithParameters?token=${{ secrets.JENKINS_TOKEN }}&env=stg&k8s_deploy_file=${{ env.K8S_DEPLOY }}&docker_image_server=internal&image_name=${{ env.REPOSITORY }}&image_tag=${{ env.IMAGE_TAG }}&test_or_release=TestAndRelease"
 
