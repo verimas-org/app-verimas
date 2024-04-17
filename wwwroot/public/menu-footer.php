@@ -32,5 +32,6 @@
                   <a rel="nofollow" href="mailto:admin@verimas.co.jp" class="tm-footer-link">admin@verimas.co.jp</a></small>
                 </p>
 
-              <p class="mb--0 mb-2" style="color:#687693;font-size:12px">powered by Kubernetes.<br> container: <?php echo  getenv('HOSTNAME'); ?></p>
+              <p class="mb--0 mb-2" style="color:#687693;font-size:12px">powered by <a href="https://asgard.verimas.co.jp/index.php?query=VCH%E3%81%AF%E4%BD%95%EF%BC%9F" target="_blank" class="tm-footer-link">ASGARD cloud - VCH</a><br>
+               container: <?php echo  getenv('HOSTNAME'); ?></p>
               </footer>
